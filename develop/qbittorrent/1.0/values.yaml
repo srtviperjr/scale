@@ -1,9 +1,9 @@
 # Default values for qbittorrent.
 
 image:
-  repository: ghcr.io/k8s-at-home/qbittorrent
+  repository: binhex/arch-qbittorrentvpn
   pullPolicy: IfNotPresent
-  tag: v4.3.5
+  tag: latest
 
 strategy:
   type: Recreate
